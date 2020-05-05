@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;300;400&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+}
+body h1{
+    text-align: center;
+    background-image:url("images/bg-curve-desktop.svg");
+    background-color: darkslategray;
+    max-width: 1440px;
+}
+div.other {
+    margin:20px;
+    text-align: center;
+}
+.form{
+    /*align-items: center;*/
+    background-image: linear-gradient(to bottom right, darkslategray, darkgrey);
+    background-color: darkgrey;
+    margin-left:200px;
+    margin-right:120px;
+    color:white;
+}
+h3 {
+    text-align: center;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: white; }
+h1 {
+    min-height: 40px;
+}
+.other {
+    min-height:400px
+    margin-top 3%;
+}
+footer {
+    min-height: 100px;
+    margin-top: 3%;
+}
+form.end input{
+    border-radius: 6px;
+    width:100px;
+    padding: 2%;
+}
+
+@media screen and (max-width: 700px){
+    body h1{
+        background-image: none;
+    }
+    .form {
+        width:268px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:250px){
+    .form {
+        max-width: 279px;
+        margin: 0 auto;
+    }
+}
